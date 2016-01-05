@@ -1,0 +1,22 @@
+<ion-view title="Login">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <ion-list>
+                <label class="item item-input">
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder="">
+                </label>
+            </ion-list>
+            <ion-checkbox ng-model="isChecked">Recordarme</ion-checkbox> 
+           
+            <div class="spacer" style="height: 40px;"></div>
+            <a href="#/scan" class="button button-stable button-block ">Log in</a>
+             <a href="#/registro" class="button button-positive button-clear button-block ">Olvidaste tu contraseña?</a>
+            <a href="#/registro" class="button button-positive button-clear button-block ">Crea tu cuenta</a>
+        </form>
+     </ion-content>
+</ion-view>
